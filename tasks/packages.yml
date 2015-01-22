@@ -1,0 +1,10 @@
+---
+- name: install system packages
+  apt: "pkg={{ item }} state=present"
+  with_items:
+    - i2c-tools
+    - python-smbus
+    - python-pip
+
+- name: install Python packages
+  pip: "requirements={{ tmp102_script_root }}/requirements.py"

@@ -1,0 +1,3 @@
+---
+- name: clone pi-temperature-alerter
+  git: "repo={{ tmp102_temperature_alert_git_url }} dest={{ tmp102_script_root }}"

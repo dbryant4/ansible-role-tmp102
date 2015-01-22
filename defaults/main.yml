@@ -1,0 +1,9 @@
+---
+tmp102_graphite_erver: "metrics.derricklbryant.com"
+tmp102_script_root: '/root/pi-temperature-alerter'
+
+tmp102_device_location: 'dining area'
+tmp102_aws_key_id: 'aws_key_id_here'
+tmp102_aws_secret_key: 'aws_secret_key_here'
+
+tmp102_temperature_alert_git_url: 'https://github.com/dbryant4/pi-temperature-alerter.git'

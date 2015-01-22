@@ -1,0 +1,7 @@
+---
+- hosts: tmp102-servers
+  gather_facts: yes
+  vars:
+    tmp102_graphite_server: 'graphite.example.com'
+  roles:
+    - ansible-role-tmp102

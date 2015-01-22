@@ -1,0 +1,3 @@
+---
+- name: start monitor_temp service
+  service: name=monitor_temp state=started enabled=yes

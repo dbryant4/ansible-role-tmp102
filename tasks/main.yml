@@ -1,0 +1,6 @@
+---
+- include: clone.yml
+- include: packages.yml
+- include: modules.yml
+- include: files.yml
+- include: service.yml
